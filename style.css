@@ -70,7 +70,7 @@ button, a {
   height: 100%;
   background-color: var(--app-container);
   transition: 0.2s;
-  max-width: 1800px;
+  max-width: 3440px;
 }
 .app-container button, .app-container input, .app-container optgroup, .app-container select, .app-container textarea {
   font-family: "DM Sans", sans-serif;
