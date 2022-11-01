@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{DC3135E2-AFDA-46FF-A7DA-7A4F4C8F5898}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		Page1.html = Page1.html
 		script.js = script.js
 		style.css = style.css
 	EndProjectSection

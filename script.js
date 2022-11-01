@@ -1,7 +1,14 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
   var modeSwitch = document.querySelector('.mode-switch');
 
-  modeSwitch.addEventListener('click', function () {                     document.documentElement.classList.toggle('dark');
+  setInterval(()=>{
+    
+    var dt = new Date();
+    document.getElementById("date-time-display").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" - "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2))+":"+(("0"+dt.getSeconds()).slice(-2));
+  }, 1000)
+
+  modeSwitch.addEventListener('click', function () {                     
+    document.documentElement.classList.toggle('dark');
     modeSwitch.classList.toggle('active');
   });
   
